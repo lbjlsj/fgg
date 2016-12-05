@@ -1,0 +1,63 @@
+
+/*--------------SLIDER----------------*/
+
+#slider {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/*--------------CONTROLS--------------*/
+
+/*position controls*/
+.controls li {
+	top: 50%;
+	margin-top: -30px
+}
+
+.controls li:nth-child(1) {
+	left: 0;
+}
+
+.controls li:nth-child(2) {
+	right: 0;
+}
+
+
+/*------------PAGINATION------------*/
+
+/*style pagination*/
+.pagination li {
+	background-color: #ddd;
+}
+
+.pagination li.active {
+	background-color: #000;
+}
+
+
+/*-------------HELPERS----------------*/
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.pic{
+	height:630px;
+	overflow:hidden;
+	-webkit-background-size: cover;
+	background-size: cover;}
+.pic ul li{height:630px;position:relative;/*background:url(../images/bg1.jpg) center; */}
+.pic ul li img{position:absolute;left:-1180px;top:0px; width:100%;}
+/*导航条*/
+.nav{height:70px;/*background:rgba(255,255,255,0.5);*/background:#fff;opacity:0.75; /*透明度*/position:absolute;left:0px;bottom:0px;}
+/*进度条*/
+.bar{height:3px;left:50%;position:absolute;bottom:0px;margin-left:-590px;background:url(../images/bar.png);}
+.bar p{width:0px;height:3px;background:#00925f;margin-left:3px;}

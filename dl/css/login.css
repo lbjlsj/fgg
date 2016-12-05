@@ -1,0 +1,109 @@
+/*全局样式*/
+body, h1, ul{ margin:0;}
+body
+{
+	background-color: #fff;
+	font-family: "微软雅黑";
+}
+ul{list-style: none;}
+/* 页头 */
+.header{ 
+	height:70px;
+	line-height:70px;
+}
+.header h1{ 
+	background:url(../images/logo.png) no-repeat;
+	width:70px;
+	height:70px;
+	float:left;
+	margin-left:15%;
+	-webkit-background-size: cover;
+	background-size: cover;}
+.header h1 a{
+	display:block;
+	text-indent:-9999px;
+	width:70px;
+	height:70px;
+}
+.header ul{margin-left:45%;}
+.header li{ 
+	float:left;
+	padding-left:2.5%;
+	padding-right:2.5%;
+	}
+.header li a{ 
+	color:#7B7B7B;
+	font-size:18px;}
+.header li a:hover{
+	color: #000;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #64a8aa;
+	}
+.header p{
+	float: right;
+	margin-right: 3.5%;
+	font-size: 14px;
+	margin-top:10px;
+	}
+.header p a{ color:#CCC;}
+.header p a:hover{ color:#62ACAE;}
+.content{
+	background-color: #62b2f4;
+	margin: 0px auto;
+	width: 100%;
+	border: 1px solid #ddd;
+	background-image: url(../images/1.jpg);
+	/*background-size: contain;*/
+	background-position: center;
+	background-position-y: 10px;
+}
+.am-tabs-nav{
+	font-weight: bold;
+}
+.am-form-field{
+background-color:#fff	
+}
+.loginDiv
+{
+	background-color: #fff;
+	margin-top: 67px;
+	margin-bottom: 75px;
+	width:373px;
+	height: 458px;
+	margin-right: 50px;
+	float: right;
+	margin-left: ;
+}
+.logo
+{
+	/*width: 1000px;*/
+	margin-left: 10px;
+	float: left;
+  }
+.left1{
+	position: absolute;
+	background-image: url(../images/sj.png);
+	background-color: #C0C0C0;
+	height: 40px;
+	width: 40px;
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	margin-top:48px;
+	left:30px;
+	background-position: center;
+}
+.left2{
+	position: absolute;
+	background-image: url(../images/passworld.png);
+	background-color: #C0C0C0;
+	height: 40px;
+	width: 40px;
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	margin-top:0px;
+	left:30px;
+	background-position: center;
+}
